@@ -1,12 +1,10 @@
-import React from "react";
 import { Form } from "react-bootstrap";
 
 type Props = {
   value: string;
-  value2?: string;
 };
 
-function Screen({ value, value2 }: Props) {
+function Screen({ value }: Props) {
   return (
     <Form.Control
       as="textarea"

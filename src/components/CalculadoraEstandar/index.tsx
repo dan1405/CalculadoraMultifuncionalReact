@@ -3,9 +3,9 @@ import Screen from "../Screen";
 import "../../App.css";
 import { useState } from "react";
 import { evaluate } from "mathjs";
-import Dropdown from "react-bootstrap/Dropdown";
+/* import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
-import ButtonGroup from "react-bootstrap/ButtonGroup";
+import ButtonGroup from "react-bootstrap/ButtonGroup"; */
 
 function CalculadoraEstandar() {
   const [value, setValue] = useState<string>("0");

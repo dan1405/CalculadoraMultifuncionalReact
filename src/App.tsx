@@ -5,11 +5,11 @@ import { useState } from "react";
 import CalculadoraEstandar from "./components/CalculadoraEstandar";
 import CalculadoraCientifica from "./components/CalculadoraCientifica";
 import CalculadoraMoneda from "./components/CalculadoraMoneda";
-import CalculadoraPesoMasa from "./components/CalculadoraPesoMasa";
-import CalculadoraLongitud from "./components/CalculadoraLongitud";
+/* import CalculadoraPesoMasa from "./components/CalculadoraPesoMasa";
+import CalculadoraLongitud from "./components/CalculadoraLongitud"; */
 
 //Bootstrap
-import { Card, Button, Col } from "react-bootstrap";
+import { Card, Col } from "react-bootstrap";
 import Dropdown from "react-bootstrap/Dropdown";
 
 function App() {
